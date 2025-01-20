@@ -42,5 +42,4 @@ jobs:
       - name: Push Docker image to Artifact Registry
         run: |
           docker push us-east1-docker.pkg.dev/jay-shree-ram-445014/test-repo/my-image:${GITHUB_SHA}
-          docker push us-east1-docker.pkg.dev/jay-shree-ram-445014/test-repo/my-image:latest
 
